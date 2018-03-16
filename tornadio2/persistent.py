@@ -86,7 +86,7 @@ class TornadioWebSocketHandler(WebSocketHandler):
 
     def open(self, session_id):
         """WebSocket open handler"""
-        self.session = self.server.get_session(session_id)
+        self.session = self.server.get_session(session_id.encode())
         if self.session is None:
             raise HTTPError(401, "Invalid Session")
 
