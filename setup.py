@@ -19,12 +19,12 @@ except:
 
 setup(
     name='TornadIO2',
-    version='0.0.3',
-    author='Serge S. Koval',
-    author_email='serge.koval@gmail.com',
+    version='0.0.5',
+    author='Serge S. Koval, Jerry Jia',
+    author_email='jerryjiahaha@gmail.com',
     packages=['tornadio2'],
     scripts=[],
-    url='http://github.com/MrJoes/tornadio2/',
+    url='http://github.com/jerryjiahaha/tornadio2/',
     license=license,
     description='Socket.io 0.7+ server implementation on top of Tornado framework',
     long_description=readme,
